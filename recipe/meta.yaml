@@ -21,7 +21,7 @@ requirements:
   run:
     - python >=3.9
     - matplotlib-base >=3.8
-    - numpy >=1.20
+    - numpy >=1.20,<2
     - pandas-stubs
 
 test:
