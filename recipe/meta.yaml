@@ -1,5 +1,5 @@
 {% set name = "types-seaborn" %}
-{% set version = "0.13.2.20240417" %}
+{% set version = "0.13.2.20240618" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-seaborn-{{ version }}.tar.gz
-  sha256: 130989a40d92a1256292c9693b62a7420f1747b25e0d74b6c156764a56ed10ec
+  sha256: d4c8b2d73deb4c5d6b782cd67537f8b22121a11d02398ef5705a716c79eff13a
 
 build:
   noarch: python
